@@ -1,45 +1,4 @@
 
-@media(min-width:0px ) and (max-width:768px){
-   
-    .loginContent{
-        width: 500px;
-        height:500px;
-        display: flex;
-        flex-direction: column;
-        
-        }
-        .foto{
-            display: none;
-            width: 300px;
-            align-self: center;
-
-        
-
-        
-    }
-    
-    
-    }
-    @media(min-width:769px)and(max-width:1024px){
-    
-    
-    
-    
-    
-    }
-    @media(min-width:1025px){
-    
-    
-    
-    
-    
-    }
-
-
-
-
-
-
 
 *{
     margin: 0;
@@ -125,3 +84,22 @@ margin-top: 100px;
     text-align: center;
 }
 
+
+
+@media screen and (max-width:678px) {
+    .foto{
+       display: none;
+ 
+   
+
+}
+
+.imagemContent{
+    width:0px;
+    height: 0px;
+}
+.loginContent{
+    margin: 0 auto;
+    align-items: center;
+}
+}
