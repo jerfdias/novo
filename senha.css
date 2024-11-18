@@ -68,7 +68,17 @@ button{
 
 @media screen  and(max-width:670px){
 body{
+
     display: block;
+    background-image: url(./work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+}
+.senha{
+    display: block;
+
 }
 
 
