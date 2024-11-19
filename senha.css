@@ -66,23 +66,14 @@ button{
     height: 500px;
 }
 
-@media screen  and(max-width:670px){
-.body{
-
-    display: block;
-    width: 670px;
-    justify-content: center;
-
+@media screen  and(max-width:667px){
+.body{ 
+    overflow: hidden;
     background-image: url(./work.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-repeat: no-repeat;
+   
+
 
 }
-.senha{
-    display: block;
-
-}
-
-
 }
